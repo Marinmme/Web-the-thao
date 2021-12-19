@@ -100,27 +100,7 @@
 								<h4>Đồ bóng đá</h4>
 									<ul>
 										<li><a href="ShopN.php">Áo bóng đá CLB</a></li>
-										<li><a href="#">Áo bóng đá đội tuyển</a></li>
-										
-									</ul>	
-							</div>							
-						</div>
-					
-						
-						<div class="clearfix"></div>
-					</div>                  
-				</div>				
-			</li>
-			<li class="dropdown mega-dropdown active">
-			    <a class="color2" href="#" class="dropdown-toggle" data-toggle="dropdown">Gym<span class="caret"></span></a>				
-				<div class="dropdown-menu mega-dropdown-menu">
-                    <div class="menu-top">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Thiết bị</h4>
-									<ul>
-										<li><a href="product.html">Găng tay</a></li>
-										<li><a href="product.html">Băng chấn thương</a></li>
+									
 										
 									</ul>	
 							</div>							
@@ -134,9 +114,7 @@
 			<li><a class="color3" href="product.php">Sale</a></li>
 			
             <li ><a class="color6" href="contact.php">Contact</a></li>
-			<li><a class="color3"  href="index.php?logout=1"><?php if(isset($_SESSION['login'])){
-                        echo $_SESSION['login'];}
-                        ?></a></li>
+		
 	
         </ul>
      </div><!-- /.navbar-collapse -->
